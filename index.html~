@@ -19,7 +19,7 @@
 		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
 		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
 		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
-		#bg { width:360px; padding:0 0 0 150px; margin: -35px 50px 0 auto; background-color:Black; z-index:1;
+		#bg { width:360px; padding:0 0 0 150px; background-color:Black; z-index:1;
        /* These three lines are for transparency in all browsers. */
        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: alpha(opacity=50); opacity:.5; }
 		
