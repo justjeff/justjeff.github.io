@@ -13,15 +13,21 @@
 	<meta name="keywords" content="personal, jeff sherry, just jeff, writing, chicago"></meta>	
 
 	<style>
-		* { padding: 0; margin: 0; }
-		p { color: #fff; font-family: 'Goudy Bookletter 1911', Georgia, serif; font-size: 20px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; z-index:5; }
-		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
-		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
-		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
-		#bg { width:360px; padding:0 0 0 150px; background-color:Black; z-index:1;
-       /* These three lines are for transparency in all browsers. */
-       -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: alpha(opacity=50); opacity:.5; }
+		* { margin: 0; padding: 0; outline: none; }
+		body { margin: 0 auto; padding: 0; }
+		
+		#main { display: block; border-radius: 5px; position: relative; width: 610px; height: 205px; padding: 35px 0 35px 75px; background-color: rgba(255,255,255,0.8); -webkit-box-shadow: 0px 0px 10px #000; -moz-box-shadow: 0px 0px 10px #000; box-shadow: 0px 0px 10px #000; }
+		#text { display: block; float: left; margin: 0; padding: 0; width: 445px; text-align: left; position: relative; }
+
+
+/* text styles */
+
+		
+		h1 { display: block; width: 100%; color: #111; font-family: 'Goudy Bookletter 1911', Georgia, serif; font-size: 30px; line-height: 30px; margin-bottom: 5px; -webkit-font-smoothing: antialiased; z-index:5; }
+		h2 { display: block; font-size: 15px; line-height: 20px; font-family: 'Goudy Bookletter 1911', Georgia, serif; color: #111; font-weight: 300; -webkit-font-smoothing: anitaliased; z-index:5 }
+		h2 a { color: #222; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
+		h2 a:hover { color: #555; border-bottom: 1px solid rgba(255,255,255,1); }
+		#monogram { display: block; float: left; margin: 0; padding: 0; width: 120px; text-align: left;  }
 		
 	</style>
 <!-- Google Analytics Code -->
@@ -48,17 +54,20 @@
     
 <body>
 
+
+
+<!-- swap out for information about yourself -->
+<div id="main">
+	<div id="text">
+	<h1>My name is Jeff, just Jeff.</h1> <h2> I have fanciful dreams, a deep abiding love of milkshakes, and a serious curiosity about the world. Currently, I reside in <a href="http://maps.google.com/maps?q=chicago,+illinois&amp;ie=UTF8&amp;hq=&amp;hnear=Chicago,+Cook,+Illinois&amp;gl=us&amp;ei=ryuyTPH4FsWAnQfEy6mZBg&amp;ved=0CCgQ8gEwAA&amp;z=10">Chicago, Illinois</a>. Though, this fact may change at any time, as I have an insatiable wanderlust.</h2>
+<h2>Sometimes, I make&nbsp;<a href="http://jsherry.tumblr.com/tagged/projects">things</a> that may or may not be worthwhile. Occasionally,&nbsp;I partake in <a href="http://twitter.com/jeffsherry">foolishness</a>. Basically, I'm a decent guy. If you'd like to get to know me; have a look around, or&nbsp;<a href="https://twitter.com/intent/tweet?in_reply_to=201503917480218624">ask</a> me something.</h2>
+<h2>(you can also <a href="http://flavors.me/justjeff">find</a> me&nbsp;elsewhere)</h2>
+
+
 <!-- swap out for a logo -->
 <div id="monogram">
 	<img src="transparancy.png" />
 </div>
-
-<!-- swap out for information about yourself -->
-<div id="about">
-	<p>My name is Jeff, just Jeff. I have fanciful dreams, a deep and abiding love of milkshakes, and a serious curiosity about the world. Currently, I reside in <a href="http://maps.google.com/maps?q=chicago,+illinois&amp;ie=UTF8&amp;hq=&amp;hnear=Chicago,+Cook,+Illinois&amp;gl=us&amp;ei=ryuyTPH4FsWAnQfEy6mZBg&amp;ved=0CCgQ8gEwAA&amp;z=10">Chicago, Illinois</a>. Though, this fact may change at any time, as I have an insatiable wanderlust.</p>
-<p>Sometimes, I make&nbsp;<a href="http://jsherry.tumblr.com/tagged/projects">things</a> that may or may not be worthwhile. Occasionally,&nbsp;I partake in <a href="http://twitter.com/jeffsherry">foolishness</a>. Basically, I'm a decent guy. If you'd like to get to know me; have a look around, or&nbsp;<a href="https://twitter.com/intent/tweet?in_reply_to=201503917480218624">ask</a> me something.</p>
-<p>(you can also <a href="http://flavors.me/justjeff">find</a> me&nbsp;elsewhere)</p>
-<div id="bg"></div>
 </div>
 
 <!--include jquery & backstretch-->
