@@ -4,16 +4,20 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Jeff Sherry</title>
 <!--- google fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Comfortaa|Metrophobic|Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
 	<meta http-equiv="pragma" content="no-cache" />
 	<meta http-equiv="cache-control" content="no-cache"> 
-	<meta name="robots" content="index, follow"></meta> 
+	<meta name="robots" content="all"></meta> 
 	<meta name="distribution" content="global"></meta> 
 	<meta name="description" content="Jeff Sherry - A creative fellow, with a penchant for milkshakes, and a love of learning."></meta> 
-	<meta name="keywords" content="jeff sherry, justjeff, writing, chicago"></meta>	
-
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
 	<style>
       body
 		{ 
@@ -30,21 +34,19 @@
 /* text styles */
 
 		
-		p { color: #fff; font-family: 'Goudy Bookletter 1911',; font-size: 20px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		h1 { color: #fff; text-transform: uppercase; font-family: 'Roboto Slab', serif; font-size: 30px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; z-index:5; }
+		h2 { font-size: 16px; line-height: 24px; font-family: 'Roboto Condensed', sans-serif; color: #fff; font-weight: 300; margin-bottom: 22px; -webkit-font-smoothing: anitaliased; z-index:5 }
+		h2 a { color: #222; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
+		h2 a:hover { color: #555; border-bottom: 1px solid rgba(255,255,255,1); }
+		p { color: #fff; font-family: 'Roboto Condensed', sans-serif; font-size: 20px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
       a { color: #fff; font-weight: bold; text-decoration: none; }
 		a:hover { color: #fff; border-bottom: 1px solid rgba(255,255,255,1); }
 		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
 		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
-
-		h1 { color: #fff; text-transform: uppercase; font-family: 'Roboto Condensed', sans-serif; font-size: 30px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; z-index:5; }
-		h2 { font-size: 16px; line-height: 24px; font-family: 'Goudy Bookletter 1911', serif; color: #fff; font-weight: 300; margin-bottom: 22px; -webkit-font-smoothing: anitaliased; z-index:5 }
-		h2 a { color: #222; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
-		h2 a:hover { color: #555; border-bottom: 1px solid rgba(255,255,255,1); }
-
-/* interface boxes and such */
-
-		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-      #about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important;  }
+		@media (max-width: 767px) {
+			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
+			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
+			background-image { opacity: 0.2; }
 
 
 	
