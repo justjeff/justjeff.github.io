@@ -44,7 +44,7 @@
 	
 		
 	</style>
-<!-- Google Analytics Code -->
+<!--- Google Analytics Code --->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -59,10 +59,10 @@
 
 </script>
 
-<!----- Twitter Stuff -->
+<!--- Twitter Stuff --->
 <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 
-<!----- Gumroad Stuff -->
+<!--- Gumroad Stuff --->
 <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
 
 </head>	
@@ -71,9 +71,9 @@
 
 
 
-<!-- swap out for a logo -->
+<!--- swap out for a logo --->
 <div id="monogram">
-	<img src="transparancy.png" />
+	<img src="jeff.png" />
 
 </div>
 
@@ -81,22 +81,26 @@
 <div id="about">
 	
   <h1>Fanciful dreams.<br> A deep abiding love of milkshakes.<br> A serious curiosity about the world. </h1>
-  <p>That's me, Jeff Sherry. I hail from Ohio, but I currently reside in Chicago, Illinois. This fact only made possible with a high regimen of <a href="https://foursquare.com/jeffsherry">daytrips</a> and unplanned escapes from the city. </p>
- <p> I can be found through all the usual internet channels: <a href="http://twitter.com/jeffsherry">Twitter</a>, <a href="http://blog.jeffsherry.com">Tumblr</a> and,<a href="http://fb.me/jeff.sherry">Facebook
-   </a> of course. But likely, you've already noticed all of those. If you really want to get to know me, <a href="https://gum.co/EQNj">I'll write you a letter</a>.
-   <!----- Removing for now --// You may also be interested in my <a href="http://www.flickr.com/photos/jsherry/sets/72157614350863654/">paintings</a>, <a href="http://jobstories.tumblr.com">writing</a>, or <a href="http://resume.io/justjeff/bletartiv5">resume</a>. &nbsp; If you're still curious, you can always <a href="https://twitter.com/intent/tweet?in_reply_to=201503917480218624">ask</a> me something.</p>
--->
+  <p>That's me, Jeff Sherry. I hail from Ohio, but I currently reside in Chicago, Illinois. I prefer to travel by bike or kayak with my dog in tow, although she is usually the one towing me. </p>
+ <p> I can be found through all the usual internet channels, including <a href="http://twitter.com/jeffsherry">Twitter</a>, <a href="http://instagram.com/jeffsherry">Instagram</a> and,<a href="http://fb.me/jeff.sherry">Facebook</a>.
 	
 </div>
 
 
 
 
-<!--include jquery & backstretch-->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<!--- include jquery & backstretch --->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="jquery.backstretch.min.js"></script>
 <script type="text/javascript">
-	$.backstretch("background.png", {speed: 150});
+$(function(){
+     $(window).resize(function(){
+         if($(this).width() >= 767){
+             $.backstretch("nh_bg.jpg", {speed: 150});
+         }
+      })
+      .resize();//trigger resize on page load
+});
 </script>
 
 </body>	
