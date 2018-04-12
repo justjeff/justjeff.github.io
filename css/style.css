@@ -3,6 +3,9 @@
 Hello There!
 
 -------------------------------- */
+body {
+    background-color: #36454f;
+}
 .container {
   display: grid;
   width: 100%;
@@ -15,6 +18,7 @@ Hello There!
   grid-auto-rows: minmax(50px, auto);
   grid-template-columns: repeat(5, 1fr);
   font-family: "Roboto Condensed";
+
 }
 
 .card {
@@ -24,6 +28,7 @@ Hello There!
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: auto;
   text-align: center;
+  background-color: white;
 }
 
 .card img {
@@ -64,6 +69,7 @@ Hello There!
   grid-area: a;
   display: block;
   max-width: 600px;
+  color: white;
 }
 
 .post-thumbs {
@@ -119,4 +125,8 @@ i.fa-linkedin:hover, a:hover {
 
 i.fa-instagram:hover, a:hover {
   color: #bc2a8d ;
+}
+
+i.fa-github:hover, a:hover {
+  color: #4078c0;
 }
