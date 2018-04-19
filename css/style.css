@@ -17,16 +17,18 @@ body {
                        ". . . . .";
   grid-auto-rows: minmax(50px, auto);
   grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2em;
   font-family: "Roboto Condensed";
 
 }
 
 .card {
   grid-area: c;
-  display: block;
+  display: grid;
   max-width: 300px;
+  min-width: 200px;
+  grid-auto-rows: minmax(50px, auto);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: inherit;
   text-align: center;
   background-color: white;
 }
@@ -70,7 +72,6 @@ body {
   display: block;
   max-width: 600px;
   color: white;
-  padding: 2em;
 }
 
 .post-thumbs {
@@ -78,7 +79,6 @@ body {
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
   grid-gap: 10px;
-  padding: 2em;
 }
 
 h1 {
