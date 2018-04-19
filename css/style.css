@@ -11,9 +11,9 @@ body {
   width: 100%;
 
   grid-template-areas: ". . . . ."
-                       "c c a a a"
-                       "c c p p p"
-                       "c c p p p"
+                       ". c a a a"
+                       ". c p p p"
+                       ". c p p p"
                        ". . . . .";
   grid-auto-rows: minmax(50px, auto);
   grid-template-columns: repeat(5, 1fr);
@@ -26,7 +26,7 @@ body {
   display: block;
   max-width: 300px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: auto;
+  margin: inherit;
   text-align: center;
   background-color: white;
 }
@@ -70,6 +70,7 @@ body {
   display: block;
   max-width: 600px;
   color: white;
+  padding: 2em;
 }
 
 .post-thumbs {
@@ -77,6 +78,7 @@ body {
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
   grid-gap: 10px;
+  padding: 2em;
 }
 
 h1 {
