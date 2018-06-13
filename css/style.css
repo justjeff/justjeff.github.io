@@ -51,17 +51,8 @@ Hello There!
   font-size: 18px;
 }
 
-.focus {
-  color: skyblue;
-  font-size: 1em;
-  margin: 1em;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
 .header {
   grid-area: h;
-  color: teal;
   max-width: 600px;
 }
 
@@ -80,7 +71,7 @@ Hello There!
 }
 
 h1 {
-  color: skyblue;
+  color: #4e4e4e;
   font-family: "Roboto Slab";
 }
 
