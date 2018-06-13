@@ -3,9 +3,7 @@
 Hello There!
 
 -------------------------------- */
-body {
-    background-color: #36454f;
-}
+
 .container {
   display: grid;
   width: 100%;
