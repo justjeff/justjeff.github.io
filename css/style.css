@@ -1,0 +1,57 @@
+/* define a new font face that just deals with emoji */
+@font-face {
+  font-family: 'emoji';
+  src: local('Apple Color Emoji'),
+       local('Segoe UI Emoji'), 
+       local('Segoe UI Symbol'),
+       local('Noto Color Emoji');
+}
+
+/* define a font face for monospace */
+@font-face {
+	font-family: 'mono';
+	src: local('Menlo'),
+		 local('Consolas'),
+		 local('Monaco'),
+		 local('Liberation Mono'),
+		 local('Lucida Console'),
+		 url('https://fonts.googleapis.com/css2?family=Source+Code+Pro');
+}
+
+body {
+	text-align: center;
+	background-color: #fff;
+	color:#000;
+	font-family: 'mono', 'emoji';
+}
+
+
+p.hello {
+	display: block;
+	position: absolute;
+	bottom: 140px;
+	left: 80px;
+	text-align: left;
+	margin: 00px 0 0px 00px;
+	letter-spacing: 0px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #000;
+	max-width: 390px;
+	padding-right: 80px;
+}
+
+
+p.hello a {
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+	color: #0004ff;
+	font-size:12px;
+	/*letter-spacing: 1px;*/
+}
+
+
+p.hello a:hover {
+	text-decoration: underline;
+}
