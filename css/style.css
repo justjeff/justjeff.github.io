@@ -36,7 +36,6 @@ p.hello {
 	letter-spacing: 0px;
 	font-size: .9em;
 	line-height: 1.5em;
-	color: #000;
 	max-width: 390px;
 	padding-right: 80px;
 }
@@ -46,7 +45,7 @@ p.hello a {
 	display: inline;
 	text-align: center;
 	text-decoration: none;
-	color: #0004ff;
+	color: #3700b3;
 	letter-spacing: .1em;
 }
 
@@ -63,17 +62,6 @@ p.hello a:hover {
   }
 
   body a {
-    color: #809fff;
+    color: #bb86fc;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
