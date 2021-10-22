@@ -34,8 +34,8 @@ p.hello {
 	text-align: left;
 	margin: 00px 0 0px 00px;
 	letter-spacing: 0px;
-	font-size: 12px;
-	line-height: 20px;
+	font-size: .9em;
+	line-height: 1.5em;
 	color: #000;
 	max-width: 390px;
 	padding-right: 80px;
@@ -47,11 +47,33 @@ p.hello a {
 	text-align: center;
 	text-decoration: none;
 	color: #0004ff;
-	font-size:12px;
-	/*letter-spacing: 1px;*/
+	letter-spacing: .1em;
 }
 
 
 p.hello a:hover {
 	text-decoration: underline;
 }
+
+/* media queries */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+
+  body a {
+    color: #809fff;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
